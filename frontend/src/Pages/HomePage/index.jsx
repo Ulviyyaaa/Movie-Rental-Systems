@@ -1,4 +1,5 @@
 import React from 'react'
+import Footer from '../../Layout/Footer'
 import Navbar from '../../Layout/Navbar'
 import ActionSwip from './ActionSwip'
 import AnimationSwip from './AnimationSwip'
@@ -13,6 +14,7 @@ function HomePage() {
       <SciFiSwip/>
       <DramaSwip/>
       <AnimationSwip/>
+      <Footer/>
     </div>
   )
 }
